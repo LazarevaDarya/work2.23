@@ -22,9 +22,9 @@ def inf_sum(x, check, num):
 
 
 if __name__ == '__main__':
-    checksum1 = sin(0)
+    checksum1 = sin(1)
     thread1 = Thread(target=inf_sum, args=(1, checksum1, 1))
     thread1.start()
-    checksum2 = sin(3)
+    checksum2 = sin(4)
     thread2 = Thread(target=inf_sum, args=(4, checksum2, 2))
     thread2.start()
